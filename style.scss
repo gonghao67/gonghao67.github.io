@@ -14,6 +14,7 @@
 /**************/
 a {
   color: #1772d0;
+  // color: #000080;
   text-decoration: none;
 }
 
@@ -97,6 +98,16 @@ h1 {
 
 span.highlight {
   background-color: #ffffd0;
+}
+
+email {
+     font-family: 'Lato', Verdana, Helvetica, sans-serif;
+     font-size: 14px;
+}
+
+name {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 32px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
