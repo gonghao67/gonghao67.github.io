@@ -100,14 +100,32 @@ span.highlight {
   background-color: #ffffd0;
 }
 
+//small {
+//  font-size: 0.25rem
+//}
+
 email {
-     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-     font-size: 14px;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
 }
 
 name {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 32px;
+}
+
+.social-icon {
+  width: 2.4rem;
+  height: 2.4rem; 
+  font-size: 1.15rem;
+  margin:0 5px;
+}
+
+.social-icon-large {
+  width: 2.4rem;
+  height: 2.4rem; 
+  font-size: 1.26rem;
+  margin:0 5px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
