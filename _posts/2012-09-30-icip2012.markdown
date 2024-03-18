@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Quantification of Pigmentation in Human Skin Images"
+date:   2012-09-30 22:21:59 +00:00
+image: /images/gong2012-icip.png
+categories: research
+author: "Hao Gong"
+authors: "<strong>Hao Gong</strong>, Michel Desvignes"
+venue: "IEEE International Conference on Image Processing (ICIP)"
+paper: pdfs/QUANTIFICATION OF PIGMENTATION IN HUMAN SKIN IMAGES.pdf
+code:
+website:
+link: https://ieeexplore.ieee.org/abstract/document/6467494
+---
+We show how our Beer-Lambert law based model-fitting method can be more accurate in quantification of skin hemoglobin and melanin. 

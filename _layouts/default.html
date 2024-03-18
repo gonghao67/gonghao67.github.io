@@ -71,9 +71,9 @@
                 </font>
                 
               </p>
-              <p>I am Hao GONG (龔 昊), former Expert in Autonomous Driving/Visual Perception Tech Lead at <a href="https://en.enjoymove.com/">Enjoy Move Technology Co., Ltd</a>.
+              <p>I am Hao GONG (龔 昊), former Expert in Autonomous Driving/Visual Perception Tech Lead at <a href="https://en.enjoymove.com/" target = "_blank">Enjoy Move Technology Co., Ltd</a>.
               </p>
-              <p>I received my PhD from <a href="https://www.gipsa-lab.grenoble-inp.fr/en">GIPSA Lab</a> at <a href="https://www.univ-grenoble-alpes.fr/english/">Université Grenoble Alpes</a> under the supervision of Prof. <a href="https://scholar.google.com/citations?user=L8tzv78AAAAJ&hl=en">Michel DESVIGNES</a>, where I specialize in combinatorial optimization based medical image processing and classification. Prior to that, I received my Bachelor's and Master's degree in Automation and Pattern Recognition from Southeast University
+              <p>I received my PhD from <a href="https://www.gipsa-lab.grenoble-inp.fr/en" target = "_blank">GIPSA Lab</a> at <a href="https://www.univ-grenoble-alpes.fr/english/" target = "_blank">Université Grenoble Alpes</a> under the supervision of Prof. <a href="https://scholar.google.com/citations?user=L8tzv78AAAAJ&hl=en" target = "_blank">Michel DESVIGNES</a>, where I specialize in combinatorial optimization based medical image processing and classification. Prior to that, I received my Bachelor's and Master's degree in Automation and Pattern Recognition from Southeast University
               </p>
               <!-- <p>
                 From 2011 to 2017, I worked at <a href="https://www.intel.com">Intel</a>, as part of <a href="https://www.intelrealsense.com/">Intel RealSense</a>. I primarily designed computer vision algorithms for efficient hardware ASICs, including the Intel RealSense <a href="https://software.intel.com/en-us/articles/realsense-r200-camera">R200</a> and <a href="https://software.intel.com/en-us/realsense/d400">D400</a> RGB-D sensors. Additionally, I worked on <a href="https://github.com/IntelRealSense/librealsense">software APIs</a>, <a href="https://patents.google.com/patent/US9992474B2">active illumination systems</a>, <a href="https://patents.google.com/patent/US9304597">human-computer interaction devices</a>, and helped develop demos for trade shows, including CES 2012-2016.
@@ -100,10 +100,10 @@
                 <!-- <a class="social-icon-large" href="https://twitter.com/msuhail153" target="_blank"><i class="ph ph-wechat-logo"></i></a> | -->
                 <a class="social-icon" href="images/WeChat.png" target="_blank"><i class="fab fa-weixin"></i></a> |
                 <!-- <a class="social-icon" href="pdfs/Hao_Gong_CV.pdf"><i class="ph-bold ph-file"></i></a> -->
-                <a class="social-icon" href="pdfs/Hao_Gong_CV.pdf"><i class="fa fa-file-pdf-o"></i></a>
+                <a class="social-icon" href="pdfs/Hao_Gong_CV.pdf" target = "_blank"><i class="fa fa-file-pdf-o"></i></a>
               </p>
             </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
+            <td style="padding:2.5%;width:35%;max-width:40%">
               <img style="width:100%;max-width:100%" alt="profile photo" src="images/avatar2316x2628.png">
             </td>
           </tr>
@@ -161,8 +161,9 @@
           </tr>
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          
           <!-- New Data Model GraphCut -->
-          <tr>
+          <!-- <tr>
             <td style="padding:18px;width:25%;vertical-align:middle">
               <img src='images/apsls.png' width="200">
             </td>
@@ -181,10 +182,10 @@
               <p></p>
               <p>We define a new data model for graph-cut image segmentation, according to probabilities learned by a classification process. Unlike traditional graph-cut methods, the data model takes into account not only color but also texture and shape information.</p>
             </td>
-          </tr>
+          </tr> -->
 
           <!-- Pigmentation Quantification -->
-          <tr>
+          <!-- <tr>
             <td style="padding:18px;width:25%;vertical-align:middle">
               <img src='images/gong2012_icip.png' width="200">
             </td>
@@ -203,45 +204,50 @@
               <p></p>
               <p>We show how our Beer-Lambert law based model-fitting method can be more accurate in quantification of skin hemoglobin and melanin. </p>
             </td>
-          </tr>
+          </tr> -->
 
           
-          <!--
+          
           {% for post in site.posts %}
           {% for cat in post.categories %}
           {% if cat == 'research' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
+              <h3>
+                <a href="{{post.link}}" target = "_blank">{{post.title}}</a>
+              </h3>
               <br>
               {{post.authors}}
 
               <br>
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
               <br>
-              {% if post.arxiv %}
-              <a href="{{post.arxiv}}">arxiv</a> /
+              {% if post.paper %}
+              <a href="{{post.paper}}" target = "_blank">paper</a> /
               {% endif %}
+              <!--{% if post.arxiv %}
+              <a href="{{post.arxiv}}" target = "_blank">arxiv</a> / 
+              {% endif %} -->
               {% if post.video %}
-              <a href="{{post.video}}">video</a> /
+              <a href="{{post.video}}" target = "_blank">video</a> /
               {% endif %}
               {% if post.code %}
-              <a href="{{post.code}}">code</a> /
+              <a href="{{post.code}}" target = "_blank">code</a> /
               {% endif %}
               {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
+              <a href="{{post.poster}}" target = "_blank">poster</a> /
               {% endif %}
               {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
+              <a href="{{post.slides}}" target = "_blank">slides</a> /
               {% endif %}
               {% if post.website %}
-              <a href="{{post.website}}">website</a> /
+              <a href="{{post.website}}" target = "_blank">website</a> /
               {% endif %}
               {% if post.youtube %}
-              <a href="{{post.youtube}}">youtube</a> /
+              <a href="{{post.youtube}}" target = "_blank">youtube</a> /
               {% endif %}
               <p></p>
               {{ post.excerpt }}
@@ -250,7 +256,7 @@
           {% endif %}
           {% endfor %}
           {% endfor %}
-          -->
+          
         </table>
         <br>
         <br>
@@ -403,7 +409,7 @@
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Miscellanea</h2>
-              <p> These include coursework, side projects and unpublished research work. 
+              <p> Things you just can't find on my résumé. 
               </p>
             </td>
           </tr>
@@ -432,7 +438,7 @@
               <p style="text-align:center;font-size:small;">
                 &copy; 2024 Hao GONG. All Rights Reserved
                 <br>
-                <font style="font-size:12px"> Inspired by <a style="font-size:11px;" href="https://leonidk.com">Leonid Leselman</a> and <a style="font-size:11px;" href="https://jonbarron.info">Jon Barron</a></font>
+                <font style="font-size:12px"> Inspired by <a style="font-size:11px;" href="https://leonidk.com" target = "_blank">Leonid Leselman</a> and <a style="font-size:11px;" href="https://jonbarron.info" target = "_blank">Jon Barron</a></font>
               </p>
               
             </td>
