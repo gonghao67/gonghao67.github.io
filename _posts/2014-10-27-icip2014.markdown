@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "New Data Model for Graph-Cut Segmentation: Application to Automatic Melanoma Delineation. "
+title:  "New Data Model for Graph-Cut Segmentation: Application to Automatic Melanoma Delineation"
 date:   2014-10-27 22:21:59 +00:00
 image: /images/apsls.png
 categories: research
 author: "Hao Gong"
-authors: "Razmig Kéchichian, <strong>Hao Gong</strong>, Marinette Revenu, Olivier Lézoray, Michel Desvignes"
+authors: "Razmig Kéchichian*, <strong>Hao Gong*</strong>, Marinette Revenu, Olivier Lézoray, Michel Desvignes <br>
+(* equal contribution)"
 venue: "IEEE International Conference on Image Processing (ICIP)"
 paper: pdfs/NEW DATA MODEL FOR GRAPH-CUT SEGMENTATION-APPLICATION TO AUTOMATIC MELANOMA DELINEATION.pdf
 code:

@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Segmentation d'Images Couleurs et Multispectrales de la Peau"
+date:   2013-06-27 22:21:59 +00:00
+image: /images/Thesis1.png
+categories: research
+author: "Hao Gong"
+authors: "<strong>Hao Gong</strong>"
+venue: "Ph.D. Thesis, Université de Grenoble"
+paper: pdfs/33919_GONG_2013_archivage.pdf
+code:
+slides: pdfs/Thesis_Segmentation_image_couleur_multispectrale_peau.pdf
+website:
+link: https://theses.hal.science/tel-00934789/
+---
+Accurate border delineation of pigmented skin lesion (PSL) images is a vital first step in computer-aided diagnosis (CAD) of melanoma. This thesis details a global framework of automatic segmentation of melanoma, which comprises two main stages: automatic selection of "seeds" useful for graph cuts and the selection of discriminating features. This tool is compared favorably to classic graph-cut based segmentation methods in terms of accuracy and robustness.
