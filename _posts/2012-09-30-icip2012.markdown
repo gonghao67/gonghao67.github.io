@@ -11,5 +11,6 @@ paper: pdfs/QUANTIFICATION OF PIGMENTATION IN HUMAN SKIN IMAGES.pdf
 code:
 website:
 link: https://ieeexplore.ieee.org/abstract/document/6467494
+comment: "[Cited by Eight U.S. Patents of Procter & Gamble and Xerox]"
 ---
 We show how our Beer-Lambert law based model-fitting method can be more accurate in quantification of skin hemoglobin and melanin. 

@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Skin Hemoglobin and Melanin Quantification on Multi-Spectral Images"
+date:   2012-05-14 22:21:59 +00:00
+image: /images/multispectral-image.png
+categories: research
+author: "Hao Gong"
+authors: "<strong>Hao Gong</strong>, Michel Desvignes"
+venue: "IASTED International Conference on Imaging and Signal Processing in Health Care and Technology (ISPHT)"
+paper: pdfs/SKIN HEMOGLOBIN AND MELANIN QUANTIFICATION ON MULTI-SPECTRAL IMAGES.pdf
+code:
+slides: pdfs/IASTED_ISPHT2012_gong_hao.pdf
+website:
+link: https://www.actapress.com/PaperInfo.aspx?PaperID=454049&reason=500
+comment: "[Oral]"
+---
+We propose and compare two different approaches for quantification of skin hemoglobin and melanin on multi-spectral images. Quantitative evaluation through graph-cut segmentation on melanoma indicates that model-fitting method obtains more accurate quantification than NMF.

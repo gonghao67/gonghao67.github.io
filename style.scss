@@ -120,6 +120,14 @@ name {
   font-size: 32px;
 }
 
+comment {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  //color: #942525;
+  //color: #B03A2E;
+  color: #f03222;
+}
+
 .social-icon {
   width: 2.4rem;
   height: 2.4rem; 
@@ -133,6 +141,12 @@ name {
   font-size: 1.26rem;
   margin:0 5px;
 }
+
+.amp{
+ font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', sans-serif;
+ font-style: italic;
+ font-weight: normal;
+ }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start

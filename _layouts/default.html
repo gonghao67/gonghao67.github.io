@@ -72,7 +72,7 @@
               </p>
               <p style="font-size:16px; color:red"> ⚠️ ⚠️⚠️ Site's under construction, not up-to-date or complete. Stay tuned. If needed, email the above address for my latest résumé.
               </p>
-              <p>I am Hao GONG (龔 昊), former Expert in Autonomous Driving/Visual Perception Tech Lead at <a href="https://en.enjoymove.com/" target = "_blank">Enjoy Move Technology Co., Ltd</a>.
+              <p>I am Hao GONG (龔 昊), former Expert in Autonomous Driving and Visual Perception Tech Lead at <a href="https://en.enjoymove.com/" target = "_blank">Enjoy Move</a>. Previously, I was Co-Founder and Algorithm Scientist at Landmark Vision
               </p>
               <p>I received my PhD from <a href="https://www.gipsa-lab.grenoble-inp.fr/en" target = "_blank">GIPSA Lab</a> at <a href="https://www.univ-grenoble-alpes.fr/english/" target = "_blank">Université Grenoble Alpes</a> under the supervision of Prof. <a href="https://scholar.google.com/citations?user=L8tzv78AAAAJ&hl=en" target = "_blank">Michel DESVIGNES</a>, where I specialize in combinatorial optimization based medical image processing and classification. Prior to that, I received my Bachelor's and Master's degrees in Automation and Pattern Recognition from <a href="https://automation.seu.edu.cn/" target = "_blank">School of Automation</a> at <a href="https://www.seu.edu.cn/english/" target = "_blank">Southeast University</a>.
               </p>
@@ -81,9 +81,11 @@
               </p>
               <p>
                 I have an MS in Computer Science (AI focus) from <a href="http://cs.stanford.edu">Stanford University</a>, where I was a research assistant for <a href="http://svl.stanford.edu/">Silvio Savarese</a> and a teaching assistant for <a href="http://svl.stanford.edu/">Fei-Fei Li</a> (<a href="http://vision.stanford.edu/teaching/cs131_fall1617/">CS131</a> & <a href="http://cs231n.stanford.edu/2017/">CS231N</a>). I have a BS in EECS from <a href="http://www.eecs.berkeley.edu/">UC Berkeley</a>, where I worked in <a href="https://people.eecs.berkeley.edu/~pister/">Kris Pister's</a> lab.
-              </p>-->
-              <p style="color:red">I am currently on the 2024-2025 job market, actively seeking a full-time senior position related to Artificial Intelligence, Computer Vision and Machine Learning. Please feel free to reach out if you are interested.
               </p>
+              <p style="color:red">I am currently on the 2024-2025 job market, actively seeking a full-time senior position related to Artificial Intelligence, Computer Vision and Machine Learning. Please feel free to reach out if you are interested.
+              </p> -->
+              <p><comment>I am currently on the 2024-2025 job market, actively seeking a full-time senior position related to Artificial Intelligence, Computer Vision and Machine Learning. Please feel free to reach out if you are interested.
+              </comment></p>
               <p style="text-align:center">
                 <!--<a target="_blank" href="https://mailhide.io/e/B8TyS"> Email</a> &nbsp;/&nbsp;
                 <a href="https://github.com/gonghao67">GitHub</a> &nbsp;/&nbsp;
@@ -117,9 +119,9 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>News and Updates</h2>
               <p>
-              [Apr 2024]&nbsp;&nbsp;Our paper Interactive Graph-Cut Segmentation Using Pixel-Wise Posteriors is on ArXiv.
+              [Apr 2024]&nbsp;&nbsp;Our paper Interactive Graph-Cut Segmentation Using Pixel-Wise Posteriors is on arXiv.
               <br>
-              [Mar 2024]&nbsp;&nbsp;Our paper Comparison of Methods in Human Skin Decomposition is on ArXiv.
+              [Mar 2024]&nbsp;&nbsp;Our paper Comparison of Methods in Human Skin Decomposition is on arXiv.
               <br>
               [Jan 2024]&nbsp;&nbsp;I am on short career break due to relocation from Shanghai to Los Angeles.
               </p>
@@ -226,6 +228,9 @@
 
               <br>
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+               {% if post.comment %}              
+              <comment>{{ post.comment }}</comment>
+              {% endif %}
               <br>
               {% if post.paper %}
               <a href="{{post.paper}}" target = "_blank">paper</a> /
@@ -404,10 +409,11 @@
               <p> National Fellowship of China (2010, 2011, 2012)
               <br>
               <!-- China Scholarship Council -->
-              Second-Class Scholarship of Southeast University (2007)
+              Second-Class Academic Scholarship of Southeast University (2007)
               <br>
-              Excellent Student of School of Dept. of Automation(2007)
-              Excellent Student of Southeast University (2004);
+              Excellent Graduate of School of Dept. of Automation (2007)
+              <br>
+              Excellent Undergraduate of Southeast University (2004)
               </p>
             </td>
           </tr>
