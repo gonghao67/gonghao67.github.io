@@ -2,7 +2,7 @@
 layout: post
 title:  "Segmentation d'Images Couleurs et Multispectrales de la Peau"
 date:   2013-06-27 22:21:59 +00:00
-image: /images/Thesis1.png
+image: /images/Thesis.png
 categories: research
 author: "Hao Gong"
 authors: "<strong>Hao Gong</strong>"
