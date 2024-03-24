@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "From GPUs to Edge Computing Devices: On the Deployment of Visual AI Model Inference"
+date:   2022-01-17 22:21:59 +00:00
+categories: talk
+author: "Hao Gong"
+authors: 
+venue: "Guest Lecture at Shanghai Zhenhua Heavy Industries Company Limited (ZPMC)"
+paper: 
+code:
+slides: pdfs/From GPUs to Edge Computing Devices.pdf
+website:
+link: 
+comment: "[in Chinese]"
+---
+

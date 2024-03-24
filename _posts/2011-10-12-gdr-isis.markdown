@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Decompostion of Skin Color Image"
+date:   2011-10-12 22:21:59 +00:00
+categories: talk
+author: "Hao Gong"
+authors: 
+venue: "<!-- Special Topic on Image and Vision, --> Annual Seminar of GdR ISIS (Groupement de Recherche, Information Signal Image viSion), Paris"
+paper: 
+code:
+slides: pdfs/skin decomposition.pdf
+website: http://intranet.gdr-isis.fr/index.php?page=reunion&idreunion=150
+link: 
+comment:
+---
+
