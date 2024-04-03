@@ -12,4 +12,6 @@ code:
 website: 
 link: 
 ---
-Various methods for skin pigment decomposition are reviewed comparatively and the performance of each method is evaluated both theoretically and experimentally. In addition, isometric feature mapping (Isomap) is introduced in order to improve the dimensionality reduction performance in context of skin decomposition.
+In this paper we investigate the potential of nonlinear posteriors within the graph-cut optimization framework. By Existing
+graph cuts based segmentation methods sharper the extrema of cost function likelihood distributions of intensity or color
+information a prior information levet-set, We propose a graphcut based image segmentation method by posterior probability.
