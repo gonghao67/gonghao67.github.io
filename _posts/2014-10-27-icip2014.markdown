@@ -12,5 +12,6 @@ paper: pdfs/NEW DATA MODEL FOR GRAPH-CUT SEGMENTATION-APPLICATION TO AUTOMATIC M
 code:
 website:
 link: https://ieeexplore.ieee.org/abstract/document/7025179
+label: conference
 ---
 We define a new data model for graph-cut image segmentation, according to probabilities learned by a classification process. Unlike traditional graph-cut methods, the data model takes into account not only color but also texture and shape information.

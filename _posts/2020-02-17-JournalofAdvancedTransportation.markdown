@@ -12,5 +12,6 @@ code:
 website:
 link: https://www.hindawi.com/journals/jat/2020/7097302/
 comment: 
+label: journal
 ---
 We aim to understand e-bikers’ RLR behavior based on structural equation modeling. Specifically, the predictive utility of the theory of planned behavior (TPB), prototype willingness model (PWM), and their combined form, TPB-PWM model, is used to analyze e-bikers’ RLR behavior, and a comparison analysis is made. 

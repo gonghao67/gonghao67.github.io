@@ -119,9 +119,9 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>News and Updates</h2>
               <p class="big">
-              [Apr 2024]&nbsp;&nbsp;Our paper Interactive Graph-Cut Segmentation Using Pixel-Wise Posteriors is on arXiv.
+              [Apr 2024]&nbsp;&nbsp;Our paper <strong>Interactive Graph-Cut Segmentation Using Pixel-Wise Posteriors</strong> is on arXiv.
               <br>
-              [Mar 2024]&nbsp;&nbsp;Our paper Comparison of Methods in Human Skin Decomposition is on arXiv.
+              [Mar 2024]&nbsp;&nbsp;Our paper <strong>Comparison of Methods in Human Skin Decomposition</strong> is on arXiv.
               <br>
               [Jan 2024]&nbsp;&nbsp;I am on short career break due to relocation from Shanghai to Los Angeles.
               </p>
@@ -210,19 +210,26 @@
             </td>
           </tr> -->
 
-          
+          <tr>
+            <td colspan="2" style="padding-left:20px;padding-right:20px;width:100%;vertical-align:middle">
+            <!-- <td colspan="2" style="padding:2.5%;width:100%;vertical-align:middle"> -->
+	      <h3>Journal Publications</h3>
+	    </td>
+	  </tr>
           
           {% for post in site.posts %}
           {% for cat in post.categories %}
           {% if cat == 'research' %}
+          {% for label in post.label %}
+          {% if label == 'journal' %} 
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>
+              <h4>
                 <a href="{{post.link}}" target = "_blank">{{post.title}}</a>
-              </h3>
+              </h4>
               <br>
               {{post.authors}}
 
@@ -262,15 +269,205 @@
           </tr>
           {% endif %}
           {% endfor %}
+          {% endif %}
           {% endfor %}
+          {% endfor %}
+
+          <tr>
+            <td colspan="2" style="padding-left:20px;padding-right:20px;width:100%;vertical-align:middle">
+            <!-- <td colspan="2" style="padding:2.5%;width:100%;vertical-align:middle"> -->
+	      <h3>Conference Proceedings</h3>
+	    </td>
+	  </tr>
           
+          {% for post in site.posts %}
+          {% for cat in post.categories %}
+          {% if cat == 'research' %}
+          {% for label in post.label %}
+          {% if label == 'conference' %} 
+          <tr>
+            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle">
+              <h4>
+                <a href="{{post.link}}" target = "_blank">{{post.title}}</a>
+              </h4>
+              <br>
+              {{post.authors}}
+
+              <br>
+              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+              {% if post.comment %}              
+              <comment>{{ post.comment }}</comment>
+              {% endif %}
+              <br>
+              {% if post.paper %}
+              <a href="{{post.paper}}" target = "_blank">paper</a> /
+              {% endif %}
+              <!--{% if post.arxiv %}
+              <a href="{{post.arxiv}}" target = "_blank">arxiv</a> / 
+              {% endif %} -->
+              {% if post.video %}
+              <a href="{{post.video}}" target = "_blank">video</a> /
+              {% endif %}
+              {% if post.code %}
+              <a href="{{post.code}}" target = "_blank">code</a> /
+              {% endif %}
+              {% if post.poster %}
+              <a href="{{post.poster}}" target = "_blank">poster</a> /
+              {% endif %}
+              {% if post.slides %}
+              <a href="{{post.slides}}" target = "_blank">slides</a> /
+              {% endif %}
+              {% if post.website %}
+              <a href="{{post.website}}" target = "_blank">website</a> /
+              {% endif %}
+              {% if post.youtube %}
+              <a href="{{post.youtube}}" target = "_blank">youtube</a> /
+              {% endif %}
+              <p></p>
+              {{ post.excerpt }}
+            </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+
+          <tr>
+            <td colspan="2" style="padding-left:20px;padding-right:20px;width:100%;vertical-align:middle">
+            <!-- <td colspan="2" style="padding:2.5%;width:100%;vertical-align:middle"> -->
+	      <h3>Preprints</h3>
+	    </td>
+	  </tr>
+         
+          {% for post in site.posts %}
+          {% for cat in post.categories %}
+          {% if cat == 'research' %}
+          {% for label in post.label %}
+          {% if label == 'preprint' %} 
+          <tr>
+            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle">
+              <h4>
+                <a href="{{post.link}}" target = "_blank">{{post.title}}</a>
+              </h4>
+              <br>
+              {{post.authors}}
+
+              <br>
+              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+              {% if post.comment %}              
+              <comment>{{ post.comment }}</comment>
+              {% endif %}
+              <br>
+              {% if post.paper %}
+              <a href="{{post.paper}}" target = "_blank">paper</a> /
+              {% endif %}
+              <!--{% if post.arxiv %}
+              <a href="{{post.arxiv}}" target = "_blank">arxiv</a> / 
+              {% endif %} -->
+              {% if post.video %}
+              <a href="{{post.video}}" target = "_blank">video</a> /
+              {% endif %}
+              {% if post.code %}
+              <a href="{{post.code}}" target = "_blank">code</a> /
+              {% endif %}
+              {% if post.poster %}
+              <a href="{{post.poster}}" target = "_blank">poster</a> /
+              {% endif %}
+              {% if post.slides %}
+              <a href="{{post.slides}}" target = "_blank">slides</a> /
+              {% endif %}
+              {% if post.website %}
+              <a href="{{post.website}}" target = "_blank">website</a> /
+              {% endif %}
+              {% if post.youtube %}
+              <a href="{{post.youtube}}" target = "_blank">youtube</a> /
+              {% endif %}
+              <p></p>
+              {{ post.excerpt }}
+            </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+
+          <tr>
+            <td colspan="2" style="padding-left:20px;padding-right:20px;width:100%;vertical-align:middle">
+            <!-- <td colspan="2" style="padding:2.5%;width:100%;vertical-align:middle"> -->
+	      <h3>Thesis</h3>
+	    </td>
+	  </tr>
+          {% for post in site.posts %}
+          {% for cat in post.categories %}
+          {% if cat == 'research' %}
+          {% for label in post.label %}
+          {% if label == 'thesis' %}
+          <tr>
+            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle">
+              <h4>
+                <a href="{{post.link}}" target = "_blank">{{post.title}}</a>
+              </h4>
+              <br>
+              {{post.authors}}
+
+              <br>
+              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+              {% if post.comment %}              
+              <comment>{{ post.comment }}</comment>
+              {% endif %}
+              <br>
+              {% if post.paper %}
+              <a href="{{post.paper}}" target = "_blank">paper</a> /
+              {% endif %}
+              <!--{% if post.arxiv %}
+              <a href="{{post.arxiv}}" target = "_blank">arxiv</a> / 
+              {% endif %} -->
+              {% if post.video %}
+              <a href="{{post.video}}" target = "_blank">video</a> /
+              {% endif %}
+              {% if post.code %}
+              <a href="{{post.code}}" target = "_blank">code</a> /
+              {% endif %}
+              {% if post.poster %}
+              <a href="{{post.poster}}" target = "_blank">poster</a> /
+              {% endif %}
+              {% if post.slides %}
+              <a href="{{post.slides}}" target = "_blank">slides</a> /
+              {% endif %}
+              {% if post.website %}
+              <a href="{{post.website}}" target = "_blank">website</a> /
+              {% endif %}
+              {% if post.youtube %}
+              <a href="{{post.youtube}}" target = "_blank">youtube</a> /
+              {% endif %}
+              <p></p>
+              {{ post.excerpt }}
+            </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+          {% endif %}
+          {% endfor %}
+          {% endfor %} 
+
         </table>
         <br>
         <br>
         <br>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
+            <td style="padding-left:20px;padding-right:20px;width:100%;vertical-align:middle">
               <h2>Projects</h2>
               <p>Besides my academic work listed in the publications above, a sampling of my work in industry.
               </p>
@@ -278,51 +475,50 @@
           </tr>
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <!--
           {% for post in site.posts %}
           {% for cat in post.categories %}
-          {% if cat == 'Intel' %}
+          {% if cat == 'project' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
+              <h4>{{post.title}}</h4>
               <br>
-              <em>{{post.categories}} {{post.course}}</em>
+              <em>{{post.venue}}</em>
               <br>
               {{ post.date | date: "%Y-%m-%d" }}
 
               <br>
               {% if post.website %}
-              <a href="{{post.website}}">website</a> /
+              <a href="{{post.website}}" target = "_blank">website</a> /
               {% endif %}
               {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
+              <a href="{{post.paper}}" target = "_blank">paper</a> /
               {% endif %}
               {% if post.patent %}
-              <a href="{{post.patent}}">patent</a> /
+              <a href="{{post.patent}}" target = "_blank">patent</a> /
               {% endif %}
               {% if post.patent2 %}
-              <a href="{{post.patent2}}">patent #2</a> /
+              <a href="{{post.patent2}}" target = "_blank">patent #2</a> /
               {% endif %}
               {% if post.patent3 %}
-              <a href="{{post.patent3}}">patent #3</a> /
+              <a href="{{post.patent3}}" target = "_blank">patent #3</a> /
               {% endif %}
               {% if post.video %}
-              <a href="{{post.video}}">video</a> /
+              <a href="{{post.video}}" target = "_blank">video</a> /
               {% endif %}
               {% if post.video2 %}
-              <a href="{{post.video2}}">video #2</a> /
+              <a href="{{post.video2}}" target = "_blank">video #2</a> /
               {% endif %}
               {% if post.code %}
-              <a href="{{post.code}}">code</a> /
+              <a href="{{post.code}}" target = "_blank">code</a> /
               {% endif %}
               {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
+              <a href="{{post.poster}}" target = "_blank">poster</a> /
               {% endif %}
               {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
+              <a href="{{post.slides}}" target = "_blank">slides</a> /
               {% endif %}
               <p></p>
               {{ post.excerpt }}
@@ -331,7 +527,6 @@
           {% endif %}
           {% endfor %}
           {% endfor %}
-          -->
         </table>
         <br>
         <br>
@@ -344,7 +539,7 @@
               {% for cat in post.categories %}
               {% if cat == 'talk'  %}
                 <p> 
-                <h3>{{post.title}}</h3>
+                <h4>{{post.title}}</h4>
                 <br>
                 <em>{{post.venue}}</em>, {{ post.date | date: "%Y-%m-%d" }}
                 {% if post.comment %}              

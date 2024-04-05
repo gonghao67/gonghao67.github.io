@@ -13,5 +13,6 @@ slides: pdfs/IASTED_ISPHT2012_gong_hao.pdf
 website:
 link: https://www.actapress.com/PaperInfo.aspx?PaperID=454049&reason=500
 comment: "[Oral]"
+label: conference
 ---
 We propose and compare two different approaches for quantification of skin hemoglobin and melanin on multi-spectral images. Quantitative evaluation through graph-cut segmentation on melanoma indicates that model-fitting method obtains more accurate quantification than NMF.

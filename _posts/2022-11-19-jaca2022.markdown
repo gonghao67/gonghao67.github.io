@@ -12,5 +12,6 @@ code:
 website:
 link: https://ieeexplore.ieee.org/document/10106303
 comment: 
+label: conference
 ---
 We propose the Pose Estimation and Occlusion Augmentation Based Vision Transformer (POVT) which leverage Pose Estimation Guided Vision Transformer (PEGVT) and an Occlusion Generation Module (OGM) to extract discriminative partial features. 

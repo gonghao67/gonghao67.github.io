@@ -11,5 +11,6 @@ paper:
 code:
 website: 
 link: https://arxiv.org/abs/2404.00552
+label: preprint
 ---
 Various methods for skin pigment decomposition are reviewed comparatively and the performance of each method is evaluated both theoretically and experimentally. In addition, isometric feature mapping (Isomap) is introduced in order to improve the dimensionality reduction performance in context of skin decomposition.

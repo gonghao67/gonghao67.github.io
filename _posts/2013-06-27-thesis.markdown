@@ -12,5 +12,6 @@ code:
 slides: pdfs/Thesis_Segmentation_image_couleur_multispectrale_peau.pdf
 website:
 link: https://theses.hal.science/tel-00934789/
+label: thesis
 ---
 Accurate border delineation of pigmented skin lesion (PSL) images is a vital first step in computer-aided diagnosis (CAD) of melanoma. This thesis details a global framework of automatic segmentation of melanoma, which comprises two main stages: automatic selection of "seeds" useful for graph cuts and the selection of discriminating features. This tool is compared favorably to classic graph-cut based segmentation methods in terms of accuracy and robustness.

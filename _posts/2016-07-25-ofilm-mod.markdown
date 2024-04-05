@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Vehicle Kinematic Model, Time Stitching and Moving Object Detection"
+date:   2016-07-25 22:21:59 +00:00
+categories: project
+image: /images/mod_teaser.gif
+author: "Hao Gong"
+authors: 
+venue: "Intelligent Vehicle and Auto Driving, OFilm"
+patent: https://patents.google.com/patent/CN109598747A/en
+paper: 
+code:
+slides: 
+website: 
+link: 
+comment: 
+---
+Ackermann Steering, Epipole Constraint, optical flow
