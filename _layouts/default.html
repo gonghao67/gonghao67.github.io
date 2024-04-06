@@ -483,7 +483,7 @@
           <tr onmouseout="teaser_stop()" onmouseover="teaser_start()">
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <div class="one">
-                <div class="two" id='teaser_image'><video with=100% muted autoplay loop>
+                <div class="two" id='teaser_image'><video width=100% muted autoplay loop>
                 <source src="{{post.video}}" type="video/mp4">
                 Your browser does not support the video tag.
                 </video></div>
@@ -493,7 +493,6 @@
                 function teaser_start() {
                   document.getElementById('teaser_image').style.opacity = "1";
                 }
-                teaser_start()
 
                 function teaser_stop() {
                   document.getElementById('teaser_image').style.opacity = "0";
