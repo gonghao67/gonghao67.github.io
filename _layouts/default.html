@@ -490,14 +490,18 @@
                 <img src="{{post.image}}" width=100%>
               </div>
               <script type="text/javascript">
-                function {{post.keyword}}_start() {
+                var func_stop=eval("{{post.keyword}}_stop");
+                var func_start=eval("{{post.keyword}}_start");
+                function func_start() {
                   document.getElementById('{{post.keyword}}_image').style.opacity = "1";
                 }
 
-                function {{post.keyword}}_stop() {
+                function func_stop() {
                   document.getElementById('{{post.keyword}}_image').style.opacity = "0";
                 }
-                {{post.keyword}}_stop()
+                func_stop()
+                
+                
               </script>
               <!-- <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" /> -->
             </td>
