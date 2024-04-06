@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Trained Parking (SAIC P2P Project)"
+date:   2017-11-02 22:21:59 +00:00
+categories: project
+image: /images/P2P_demo_20180329.gif
+author: "Hao Gong"
+authors: 
+venue: "Intelligent Vehicle and Auto Driving, OFilm"
+patent: 
+paper: 
+code:
+slides: 
+website: 
+link: 
+comment: 
+---
+Trained Parking (A Long Distance Autonomous Parking Function with Route Memory) (C++/OpenCV/DBoW) achieving mapping distance up to 200m and centimeter-level error of localization.
