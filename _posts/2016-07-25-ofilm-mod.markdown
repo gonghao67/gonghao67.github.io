@@ -2,7 +2,7 @@
 layout: post
 title:  "Vehicle Kinematic Model, Time Stitching and Moving Object Detection"
 date:   2016-07-25 22:21:59 +00:00
-categories: project
+categories: project1
 image: /images/mod_teaser.gif
 author: "Hao Gong"
 authors: 

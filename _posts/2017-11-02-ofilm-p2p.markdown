@@ -3,7 +3,8 @@ layout: post
 title:  "Trained Parking (SAIC P2P Project)"
 date:   2017-11-02 22:21:59 +00:00
 categories: project
-image: /images/P2P_demo_20180329.gif
+video: /images/P2P-demo-20180329-00-00-38-00-02-11.mp4
+image: /images/trainedparking.png
 author: "Hao Gong"
 authors: 
 venue: "Intelligent Vehicle and Auto Driving, OFilm"
