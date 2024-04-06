@@ -480,7 +480,7 @@
           {% for post in site.posts %}
           {% for cat in post.categories %}
           {% if cat == 'project' %}
-          <tr onmouseout="{{post.keyword}}_stop()" onmouseover="{{post.keyword}}_start()">
+          <tr onmouseout="func_stop()" onmouseover="func_start()">
             <td style="padding:20px;width:25%;vertical-align:middle;min-width:120px">
               <div class="one">
                 <div class="two" id='{{post.keyword}}_image'><video width=100% muted autoplay loop>
