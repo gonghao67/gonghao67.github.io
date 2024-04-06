@@ -15,5 +15,6 @@ slides:
 website: 
 link: 
 comment: 
+keyword: p2p
 ---
 Trained Parking (A Long Distance Autonomous Parking Function with Route Memory) (C++/OpenCV/DBoW) achieving mapping distance up to 200m and centimeter-level error of localization.
