@@ -480,7 +480,8 @@
           {% for post in site.posts %}
           {% for cat in post.categories %}
           {% if cat == 'project' %}
-          <tr onmouseout="func_stop()" onmouseover="func_start()">
+          
+          <tr>
             <td style="padding:20px;width:25%;vertical-align:middle;min-width:120px">
               <div class="one">
                 <div class="two" id='{{post.keyword}}_image'><video width=100% muted autoplay loop>
@@ -490,16 +491,15 @@
                 <img src="{{post.image}}" width=100%>
               </div>
               <script type="text/javascript">
-                var func_stop=eval("{{post.keyword}}_stop");
-                var func_start=eval("{{post.keyword}}_start");
-                function func_start() {
-                  document.getElementById('{{post.keyword}}_image').style.opacity = "1";
-                }
-
-                function func_stop() {
-                  document.getElementById('{{post.keyword}}_image').style.opacity = "0";
-                }
-                func_stop()
+                let obj = document.getElementById('{{post.keyword}}_image');
+                obj.onmouseover = function () {
+                  obj.style.opacity = "1";
+                };
+               
+                obj.onmouseout = function () {
+                  obj.style.opacity = "0";
+                };
+                obj.onmouseout;
                 
                 
               </script>
