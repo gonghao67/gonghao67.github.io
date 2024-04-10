@@ -3,8 +3,7 @@ layout: post
 title:  "Vehicle Kinematic Model, Time Stitching and Moving Object Detection"
 date:   2016-07-25 22:21:59 +00:00
 categories: project
-video: /images/20211128221148.mp4
-image: /images/mod-teaser.png
+image: /images/mod_teaser.gif
 author: "Hao Gong"
 authors: 
 venue: "Intelligent Vehicle and Auto Driving, OFilm"
@@ -15,6 +14,5 @@ slides:
 website: 
 link: 
 comment: 
-keyword: mod
 ---
 Ackermann Steering, Epipole Constraint, optical flow

@@ -481,26 +481,9 @@
           {% for cat in post.categories %}
           {% if cat == 'project' %}
           
-          <tr onmouseout="teaser_stop()" onmouseover="teaser_start()">
+          <tr>
             <td style="padding:20px;width:25%;vertical-align:middle;min-width:120px">
-              <div class="one">
-                <div class="two" id='{{post.keyword}}_image'><video width=100% muted autoplay loop>
-                <source src="{{post.video}}" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src="{{post.image}}" width=100%>
-              </div>
-              <script type="text/javascript">
-                function teaser_start() {
-                  document.getElementById('{{post.keyword}}_image').style.opacity = "1";
-                }
-
-                function teaser_stop() {
-                  document.getElementById('{{post.keyword}}_image').style.opacity = "0";
-                }
-                teaser_stop()
-              </script>
-              <!-- <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" /> -->
+              <img src="{{post.image}}" alt="project teaser" style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h4>{{post.title}}</h4>
