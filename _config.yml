@@ -6,7 +6,9 @@
 name: Hao GONG
 
 # Short bio or description (displayed in the header)
-# description: the profile of an engineer, researcher and software developer
+description: Academic personal homepage of Hao GONG. Dr. Hao GONG is a research scientist. His research interests primarily lie in machine/deep learning, computer vision and optimization, with application to autonomous driving, intelligent traffic and medical image analysis. 
+
+keywords: hao gong, haogong, gonghao, gong hao, dr. hao gong, dr. gong hao
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: images/avatar2316x2628.png
@@ -23,10 +25,10 @@ footer-links:
   flickr:
   github: gonghao67
   instagram: 
-  linkedin: 
+  linkedin: https://www.linkedin.com/in/gonghao67/
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter:
+  twitter: https://twitter.com/gonghao67
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
