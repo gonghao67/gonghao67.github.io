@@ -84,8 +84,8 @@
                  <a href="#" onclick="emailScramble.initAnimatedBubbleSort();return false;">unscramble</a>
                 </font>
               </p>
-              <p style="font-size:16px; color:red"> ⚠️⚠️⚠️Site's under construction, not up-to-date or complete. Stay tuned, and email the above address for my latest résumé.
-              </p>
+              <!-- <p style="f!ont-size:16px; color:red"> ⚠️⚠️⚠️Site's under construction, not up-to-date or complete. Stay tuned, and email the above address for my latest résumé. 
+              </p> -->
               <p>I am Hao GONG (龔 昊), former Expert in Autonomous Driving and Visual Perception Tech Lead at <a href="https://en.enjoymove.com/" target = "_blank">Enjoy Move Tech</a>. Previously, I was Co-Founder and Algorithm Scientist at Landmark Vision Tech. Prior to this role, I was an Expert in ADAS/Auto Driving R&D at <a href="http://www.o-film.com/en/" target = "_blank">OFilm Group</a> and a Research Scientist at Third Research Institute of Ministry of Public (TRIMP).
               </p>
               <p>I received my PhD from <a href="https://www.gipsa-lab.grenoble-inp.fr/en" target = "_blank">GIPSA Lab</a> at <a href="https://www.univ-grenoble-alpes.fr/english/" target = "_blank">Université Grenoble Alpes</a> under the supervision of Prof. <a href="https://scholar.google.com/citations?user=L8tzv78AAAAJ&hl=en" target = "_blank">Michel DESVIGNES</a>, where I specialize in combinatorial optimization based medical image processing and classification. Prior to that, I received my Bachelor's and Master's degrees in Automation and Pattern Recognition from <a href="https://automation.seu.edu.cn/" target = "_blank">School of Automation</a> at <a href="https://www.seu.edu.cn/english/" target = "_blank">Southeast University</a>.
@@ -133,11 +133,13 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>News and Updates</h2>
               <p class="big">
-              [Apr 2024]&nbsp;&nbsp;Our paper <strong>Interactive Graph-Cut Segmentation Using Pixel-Wise Posteriors</strong> is on arXiv.
-              <br>
+              <!-- [Apr 2024]&nbsp;&nbsp;Our paper <strong>Interactive Graph-Cut Segmentation Using Pixel-Wise Posteriors</strong> is on arXiv.
+              <br> -->
               [Mar 2024]&nbsp;&nbsp;Our paper <strong>Comparison of Methods in Human Skin Decomposition</strong> is on arXiv.
               <br>
               [Jan 2024]&nbsp;&nbsp;I am on short career break due to relocation from Shanghai to Los Angeles.
+              <br>
+              [Aug 2023]&nbsp;&nbsp;I am a U.S. Permanent Resident through the EB-1A program for extraordinary ability.
               </p>
               <!-- <p>
                 [Apr 2024]&nbsp;&nbsp;Our paper Autonomous Vehicle Research Group is on ArXiv.
@@ -497,7 +499,13 @@
           
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle;min-width:120px">
+              {% if post.image %}
               <img src="{{post.image}}" alt="project teaser" style="width:auto; height:auto; max-width:100%;" />
+              {% endif %}
+              {% if post.video %}
+              <video src="{{post.video}}" width=100%; controls="controls" />
+         
+              {% endif %}
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h4>{{post.title}}</h4>
@@ -606,7 +614,7 @@
           </tr>
         </table>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Miscellanea</h2>
@@ -614,7 +622,7 @@
               </p>
             </td>
           </tr>
-        </table>
+        </table> -->
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
