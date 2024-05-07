@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Comparison of Methods in Human Skin Decomposition"
+title: "Comparison of Methods in Skin Pigment Decomposition"
 date:   2024-03-31 22:21:59 +00:00
 image: /images/hsv-skin-color.png
 categories: research
@@ -13,4 +13,4 @@ website:
 link: https://arxiv.org/abs/2404.00552
 label: preprint
 ---
-Various methods for skin pigment decomposition are reviewed comparatively and the performance of each method is evaluated both theoretically and experimentally. In addition, isometric feature mapping (Isomap) is introduced in order to improve the dimensionality reduction performance in context of skin decomposition.
+Various methods for skin pigment decomposition are reviewed comparatively and the performance of each method is evaluated both theoretically and experimentally. In addition, isometric feature mapping (Isomap) is introduced in order to improve the dimensionality reduction performance in context of skin pigment decomposition.
