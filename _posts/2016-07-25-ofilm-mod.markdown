@@ -13,6 +13,6 @@ code:
 slides: 
 website: 
 link: 
-comment: 
+comment: "[Mass-produced as an ADAS solution for leading domestic OEMs (BAIC Group and Chang'an Automobile); initial order batch in 2017 exceeded 200,000 units, with cumulative sales over 240 million CNY]"
 ---
 Ackermann Steering, Epipole Constraint, optical flow

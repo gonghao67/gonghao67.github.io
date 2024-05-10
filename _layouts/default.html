@@ -135,7 +135,7 @@
               <p class="big">
               <!-- [Apr 2024]&nbsp;&nbsp;Our paper <strong>Interactive Graph-Cut Segmentation Using Pixel-Wise Posteriors</strong> is on arXiv.
               <br> -->
-              [Mar 2024]&nbsp;&nbsp;Our paper <strong>Comparison of Methods in Human Skin Decomposition</strong> is on arXiv.
+              [Mar 2024]&nbsp;&nbsp;Our paper <strong>Comparison of Methods in Skin Pigment Decomposition</strong> is on arXiv.
               <br>
               [Jan 2024]&nbsp;&nbsp;I am on short career break due to relocation from Shanghai to Los Angeles.
               <br>
@@ -513,7 +513,10 @@
               <em>{{post.venue}}</em>
               <br>
               {{ post.date | date: "%Y-%m-%d" }}
-
+              <br>
+              {% if post.comment %}              
+              <comment>{{ post.comment }}</comment>
+              {% endif %}
               <br>
               {% if post.website %}
               <a href="{{post.website}}" target = "_blank">website</a> /

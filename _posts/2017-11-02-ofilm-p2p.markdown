@@ -13,6 +13,6 @@ code:
 slides: 
 website: 
 link: 
-comment: 
+comment: "[First in China to achieve mass production of driveless parking solution, launched on SAIC's premium all-electric SUV, Roewe Marvel X, as an L3 autonomous driving feature for long-distance path-follow parking in low-speed controlled environments]"
 ---
-Trained Parking (A Long Distance Autonomous Parking Function with Route Memory) (C++/OpenCV/DBoW) achieving mapping distance up to 200m and centimeter-level error of localization.
+A Long Distance Autonomous Parking Feature with Route Memory, externally known as the 'P2P Valet Parking' following collaboration with SAIC, achieves mapping distance up to 200m and centimeter-level localization accuracy.
