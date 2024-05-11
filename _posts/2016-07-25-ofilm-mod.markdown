@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Vehicle Kinematic Model, Time Stitching and Moving Object Detection"
-date:   2016-07-25 22:21:59 +00:00
+title:  "Vehicle Kinematic Model, Penetrated AVM and Moving Object Detection"
+date:   2016-07-25 02:21:59 +00:00
 categories: project
 image: /images/mod_teaser.gif
 author: "Hao Gong"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Trained Parking (SAIC P2P Project)"
-date:   2017-11-02 22:21:59 +00:00
+date:   2017-11-02 02:21:59 +00:00
 categories: project
 image: /images/P2P_demo_20180329_00_00_56-00_01_15.gif
 author: "Hao Gong"
@@ -13,6 +13,6 @@ code:
 slides: 
 website: 
 link: 
-comment: "[First in China to achieve mass production of driveless parking solution, launched on SAIC's premium all-electric SUV, Roewe Marvel X, as an L3 autonomous driving feature for long-distance path-follow parking in low-speed controlled environments]"
+comment: "[First in China to achieve mass production of driverless parking solution, launched on SAIC's premium all-electric SUV, Roewe Marvel X, as an L3 autonomous driving feature for long-distance path-follow parking in low-speed controlled environments]"
 ---
 A Long Distance Autonomous Parking Feature with Route Memory, externally known as the 'P2P Valet Parking' following collaboration with SAIC, achieves mapping distance up to 200m and centimeter-level localization accuracy.
