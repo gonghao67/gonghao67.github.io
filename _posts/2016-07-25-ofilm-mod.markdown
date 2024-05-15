@@ -15,4 +15,4 @@ website:
 link: 
 comment: "[Mass-produced as an ADAS solution for leading domestic OEMs (BAIC Group and Chang'an Automobile); initial order batch in 2017 exceeded 200,000 units, with cumulative sales over 240 million CNY]"
 ---
-Ackermann Steering, Epipole Constraint, optical flow
+Build a calibrated and optimized vehicle motion model based on Ackermann Steering and Levenberg-Marquardt algorithm, serving as base of ADAS features like Penetrated Around View Monitor (AVM) and Moving Object Detection (MOD). The former accordingly estimates ego-motion to interpolate and stitch historical Bird's Eye View (BEV) frames, filling gap from ego-vehicle occlusion for a complete "penetrated" AVM; the latter leverages epipolar geometric constraints to segment moving objects from static backgrounds while SfM, powered by feature-level tracking (KLT optical flow), object-level detection (meanshift clustering) and tracking (KF w/ Hungarian Algo.), with detection rate &ge; 95%, false alarm rate &le; 1% and real time (&ge; 15fps) on TI Jacinto5 upon delivery. Both facilitated the deployment of the APA (Automatic Parking Assist).
