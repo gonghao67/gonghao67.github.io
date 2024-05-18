@@ -15,4 +15,4 @@ website:
 link: 
 comment: 
 ---
-Multi-Target Multi-Camera (MTMC) Human Tracking ReID
+Proposed a Pose Estimation and Occlusion Augmentation Based Vision Transformer (POVT) for significant improvement on real-world occluded person re-identification. The pipeline system comprises an anchor-free pedestrian detector (DarkNet53 backbone), a multi-object tracker using generic data association compatible with ReID feature similarity to handle occlusions and a homography-based perspective mapping to convert 2D pedestrian positions into real-world coordinates for trajectory plotting. This system enables inter-camera MOT and intra-camera ID assignment, optimized real-time performance across platforms via inferencing accelerators (TensorRT/ONNX/OpenVINO).
