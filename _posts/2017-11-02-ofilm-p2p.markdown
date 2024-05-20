@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Trained Parking (SAIC P2P Project)"
+title:  "Trained Parking (SAIC Motor P2P Project)"
 date:   2017-11-02 02:21:59 +00:00
 categories: project
 image: /images/P2P_demo_20180329_00_00_56-00_01_15.gif
@@ -13,7 +13,7 @@ code:
 slides: 
 website: 
 link: 
-comment: "[First in China to achieve mass production of driverless parking solution, launched on SAIC's premium all-electric SUV, Roewe Marvel X, as an L3 autonomous driving feature for long-distance path-follow parking in low-speed controlled environments]"
+comment: "[First in China to achieve mass production of driverless parking solution, launched on SAIC Motor's premium all-electric SUV, Roewe Marvel X, as an L3 autonomous driving feature for long-distance path-follow parking in low-speed controlled environments]"
 ---
-A Long Distance Autonomous Parking Feature with Route Memory, a.k.a the "P2P (Point to Point) Valet Parking" following collaboration with SAIC, achieves mapping distance up to 200m and centimeter-level localization accuracy.
+A Long Distance Autonomous Parking Feature with Route Memory, a.k.a the "P2P (Point to Point) Valet Parking" following collaboration with SAIC Motor, achieves mapping distance up to 100m and centimeter-level localization accuracy.
 Inspired by ORB-SLAM, we proposed a multi-fisheye visual SLAM system tailored to vehicle trims and delivery standards. This L3 conditional automation supports autonomous parking via a one-off training process for SLAM mapping, requiring no in-vehicle human intervention in predefined paths and controlled settings. For safety, users must monitor the system status in real-time via a mobile app, maintaining activation and taking safety actions such as braking when necessary. Fisheye cameras with extended FOVs ensure accurate and robust pose estimation in confined spaces as underground parking. Despite challenges from lack of loop-closing and fisheye-induced radial distortions, we introduced special descriptors to enhance feature matching and integrated precise absolute scale information from our vehicle motion model. Validation through real-world ground truth and [the "Multi-FoV" synthetic datasets](https://rpg.ifi.uzh.ch/fov.html) confirmed centimeter-level accuracy in 3D landmark reconstruction. The system on Renesas RH850 MCU and TI TDA2x SoC, supports real-time operation at 15fps during the localization phase. Intergration of mapping environment evaluator and map quality evaluator enhanced practicality and deployability. 
