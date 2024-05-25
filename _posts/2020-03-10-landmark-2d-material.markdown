@@ -3,7 +3,7 @@ layout: post
 title:  "Automatic Search, Localization and Stacking of 2D Crystals"
 date:   2020-03-10 02:21:59 +00:00
 categories: project
-video: /images/facelivenet.mp4
+image: /images/search_assembly_2d_van_der_Waals.gif
 author: "Hao Gong"
 authors: 
 venue: "Landmark Vision Tech, co-op with Institute of Optoelectronics at Shanxi University"
