@@ -4,7 +4,7 @@ title:  "FaceLiveNet: End-to-End Networks Combining Face Verification with Inter
 date:   2019-04-07 02:21:59 +00:00
 categories: project
 image: 
-video: /images/facelivenet.mp4
+video: /images/facelivenet_teaser.mp4
 author: "Hao Gong"
 authors: 
 venue: "Landmark Vision Tech, co-op with L3i, Université of La Rochelle"
