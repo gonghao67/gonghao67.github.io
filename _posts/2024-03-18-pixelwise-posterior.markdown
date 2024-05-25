@@ -13,6 +13,4 @@ website:
 link: 
 label: preprint
 ---
-In this paper we investigate the potential of nonlinear posteriors within the graph-cut optimization framework. By Existing
-graph cuts based segmentation methods sharper the extrema of cost function likelihood distributions of intensity or color
-information a prior information levet-set, We propose a graphcut based image segmentation method by posterior probability.
+In this paper we investigate the potential of nonlinear posteriors within the graph-cut optimization framework. We propose to reformulate the data energy in the energy function considering not only a single pixel but also its neighborhood, not only color information but also texture features, and utilizing posterior class probability learnt by a classifier to enhance the discrimination between foreground and background, where the color information only is less discriminative.
