@@ -6,7 +6,7 @@ categories: project
 image: /images/search_assembly_2d_van_der_Waals.gif
 author: "Hao Gong"
 authors: 
-venue: "Landmark Vision Tech, co-op with Institute of Optoelectronics at Shanxi University"
+venue: "Landmark Vision Tech"
 patent: 
 paper: 
 code:
